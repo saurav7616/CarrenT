@@ -1,0 +1,21 @@
+html,body{
+    background: url('../../assets/image/bg.png'); 
+    background-size: cover;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 0em;
+}
+ 
+.name-logo{
+    vertical-align: bottom !important;
+}
+
+@media only screen and (max-width: 1000px){
+    .banner{
+        display: none !important;
+    }
+}
