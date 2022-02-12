@@ -1,4 +1,4 @@
-let cardArr=[
+let carArr=[
 	{
 		model:"ferrari1",
 		number:"jh01-1234",
@@ -49,14 +49,13 @@ let cardArr=[
 	},
 ]
 
-function addCard(ele){
+function addCar(ele){
   const list = document.getElementById("cardList");
   let today = new Date();
   let dd = String(today.getDate()).padStart(2, '0');
   let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
   let yyyy = today.getFullYear();	
   today = yyyy + '-' + mm + '-' + dd;
-  console.log(today)
   let variable = '' + 
 		'<div class="p-3 card">' + 
 		'	<div class="d-flex">'+
@@ -87,4 +86,4 @@ function addCard(ele){
 	list.innerHTML += variable;
 }
 
-cardArr.map((ele)=> addCard(ele))
+carArr.map((ele)=> addCar(ele))

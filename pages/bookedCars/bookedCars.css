@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    min-height: 100%;
+    background: url("../../assets/image/bg.png");
+    background-size: cover;
+}
+
+nav{
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    margin-right: 0.5em;
+}
+
+#carList .card{
+    min-width: 30%;
+}
